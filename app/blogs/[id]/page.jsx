@@ -4,7 +4,7 @@ import axios from 'axios';
 import Image from 'next/image';
 import React, { useEffect, useState } from 'react'
 
-const page = ( {params} ) => {
+const BlogsPage = ( {params} ) => {
     const [data, setData] = useState(null);
     useEffect(() => {
         const fetchBlogData = async () => {
@@ -45,4 +45,4 @@ const page = ( {params} ) => {
     )
 }
 
-export default page
+export default BlogsPage

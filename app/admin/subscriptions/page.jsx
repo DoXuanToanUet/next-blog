@@ -1,10 +1,10 @@
 'use client'
 import React from 'react'
 
-function page() {
+function SubcriptionsAdmin() {
   return (
     <div>subcriptions</div>
   )
 }
 
-export default page
+export default SubcriptionsAdmin

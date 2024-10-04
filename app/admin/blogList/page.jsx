@@ -4,7 +4,7 @@ import axios from 'axios'
 import React, { useEffect, useState } from 'react'
 import { toast } from 'react-toastify'
 
-function BlogListAdmin() {
+function BlogList() {
     const [blogs,setBlogs] = useState([])
 
     const fetchBlogs = async () =>{
@@ -69,4 +69,4 @@ function BlogListAdmin() {
     )
 }
 
-export default BlogListAdmin
+export default BlogList

@@ -5,7 +5,7 @@ import Image from 'next/image'
 import React, { useState } from 'react'
 import { toast } from 'react-toastify'
 
-function AddProducPgae() {
+function AddProduct() {
     const [image, setImage] = useState(false)
     const [data,setData] = useState({
         title:'',
@@ -65,4 +65,4 @@ function AddProducPgae() {
     )
 }
 
-export default AddProducPgae
+export default AddProduct

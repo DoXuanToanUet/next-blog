@@ -17,7 +17,7 @@ const BlogList = () => {
         fetchBlogs()
     },[])
   return (
-    <div className='max-w-[1200px] mx-auto'>
+    <div className=' mx-auto' style={{maxWidth:'1200px'}}>
         <div className='flex justify-center gap-6 my-10 '>
             <button onClick={ ()=> setMenu('All')} className={menu==='All'?'bg-black text-white py-1 px-4 rounded-sm':''}>All</button>
             <button onClick={ ()=> setMenu('Startup')} className={menu==='Startup'?'bg-black text-white py-1 px-4 rounded-sm':''} >Startup</button>

@@ -10,6 +10,9 @@ const Sidebar = () => {
             <Image src={assets.logo} width={120} alt=''/>
         </div>
         <div className="w-28 sm:w-80 h-[100vh] relative py-12 border border-black">
+            <Link href='/admin' className=" mb-2 flex items-center border border-black gap-3 font-medium px-3 py-2 bg-white shadow-[-5px_5px_0px_#000000]">
+                Dashboard
+            </Link>
             <Link href='/admin/addProduct' className=" mb-2 flex items-center border border-black gap-3 font-medium px-3 py-2 bg-white shadow-[-5px_5px_0px_#000000]">
                 Add Blogs
             </Link>

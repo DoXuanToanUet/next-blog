@@ -11,11 +11,11 @@ const Header = () => {
         </div>
         <div className='text-center my-8'>
             <h1 className='text-3xl sm:text-5xl font-medium'>Tin mới nhất</h1>
-            <p className='mt-10 max-w-[740px] m-auto text-xs sm:text-base'> Đọc tất cả tin tức </p>
-            <form action="#" className='flex justify-between max-w-[500px] scale-75 sm:scale-100 mx-auto mt-10'>
+            <p className='mt-10 max-w-[740px] m-auto text-xl sm:text-base'> Đọc tất cả tin tức </p>
+            {/* <form action="#" className='flex justify-between max-w-[500px] scale-75 sm:scale-100 mx-auto mt-10'>
                 <input type="email" placeholder='Enter your Email' className='pl-4 outline-none'/>
                 <button className='border-1 border-black py-4 px-4 active:bg-gray-600 active:text-white'>Subcribe</button>
-            </form> 
+            </form>  */}
         </div>
     </div>
   )
